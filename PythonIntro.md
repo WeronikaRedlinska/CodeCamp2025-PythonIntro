@@ -8,16 +8,16 @@ Python to świetny język dla początkujących
 - Ma aktywną i pomocną społeczność
 - Oferuje różnorodne możliwości w tworzeniu stron internetowych, grach, naukach o danych
   
-Replit to najlepsze miejsce do nauki programowania, ponieważ nie ma konieczności konfiguracji - oznacza to, że nie musisz niczego pobierać, ustawiać ani instalować. Wszystką potrzebną pracę już wykonałeś, bo jesteś tutaj!
+CodeHS to najlepsze miejsce do nauki programowania, ponieważ nie ma konieczności konfiguracji - oznacza to, że nie musisz niczego pobierać, ustawiać ani instalować. Wszystką potrzebną pracę już wykonałeś, bo jesteś tutaj!
 
 Teraz wystarczy, że będziesz podążać za mną, przechodzić do kolejnych etapów tutoriala i po prostu się bawić! No to zaczynamy!
 
-# Replit
-## Przestrzeń Robocza Replit
+# CodeHS
+## Przestrzeń Robocza CodeHS
 
 1. Kliknij na plik `main.py` po lewej stronie. To otworzy plik w głównym oknie kodowania (#2 poniżej), abyśmy mogli zacząć.
 
-### Zróbmy szybką wycieczkę po przestrzeni roboczej Replit - czyli co masz teraz na ekranie:
+### Zróbmy szybką wycieczkę po przestrzeni roboczej CodeHS - czyli co masz teraz na ekranie:
 
 - **Files:** Jeśli potrzebujesz wyświetlić inny plik, po prostu kliknij tutaj. To także miejsce, gdzie możesz przesłać różne zasoby (zdjęcia, gify itp.), aby użyć ich w swoim projekcie.
 
@@ -520,7 +520,7 @@ if myName == "David":
 
 ## Ale to nic nie drukuje?
 
-Aby stworzyć instrukcję `print` związaną z instrukcją warunkową (`if`), musisz przejść do następnej linii i wcięcie **raz** (Na szczęście Replit robi to za ciebie, ale bądź ostrożny!) tak, aby wszystko to było częścią kodu, który wykonujemy.
+Aby stworzyć instrukcję `print` związaną z instrukcją warunkową (`if`), musisz przejść do następnej linii i wcięcie **raz** tak, aby wszystko to było częścią kodu, który wykonujemy.
 
 👉 Skopiuj ten kod i zobacz, co się stanie.
 
@@ -534,7 +534,7 @@ if myName == "David":
 
 Jeśli warunek nie zostanie spełniony w instrukcji `if`, to chcemy, aby komputer wykonał zamiast tego część z instrukcją `else`.
 Podobnie, jeśli warunek **zostanie** spełniony w instrukcji `if`, to część z instrukcją `else` jest pomijana przez komputer.
-Instrukcja `else` musi być pierwszą rzeczą **bez wcięcia** po instrukcji `if` i w linii z nią (Replit też ci w tym pomoże!)
+Instrukcja `else` musi być pierwszą rzeczą **bez wcięcia** po instrukcji `if` i w linii z nią.
 
 👉 Skopiuj ten kod i spróbuj. Zwracaj uwagę na wcięcia!
 
@@ -1447,7 +1447,7 @@ print("Papa!")
 
 `while true` powinno być zmienione na `while True`.
 
-Zauważ, że gdy zmienisz małe "t" na wielkie "T", kolor słowa zmieni się, ponieważ Replit teraz rozpoznaje to jako pętlę logiczną.
+Zauważ, że gdy zmienisz małe "t" na wielkie "T", kolor słowa zmieni się, ponieważ CodeHS teraz rozpoznaje to jako pętlę logiczną.
 
 
 </details>

@@ -1214,7 +1214,7 @@ while counter < 10:
 
 # Nieskończona pętla
 
-Musisz być **naprawdę** ostrożny, żeby nie przypadkowo wywołać nieskończoną pętlę! To jest sytuacja, w której komputer będzie powtarzał kod aż do końca czasów. Bez przerwy. Na zawsze. 😭
+Musisz być **naprawdę** ostrożny, żeby przypadkowo nie stworzyć nieskończoną pętlę! To jest sytuacja, w której komputer będzie powtarzał kod aż do końca czasów. Bez przerwy. Na zawsze. 😭
 
 ## Naprawa nieskończonej pętli poprzez dodanie:
 
@@ -1229,10 +1229,10 @@ Nie zapomnij, że jeśli twój **warunek** to `>`, to być może będziesz musia
 # 👉 Wypróbuj to!
 
 ```python
-counter = 0
-while counter < 10:
+counter = 10
+while counter > 0:
   print(counter)
-  counter +=1
+  counter -=1
 ```
 
 Czy mógłbyś rozbudować ten kod, aby wyświetlał liczby do 100?

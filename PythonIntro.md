@@ -8,7 +8,7 @@ Python to świetny język dla początkujących
 - Ma aktywną i pomocną społeczność
 - Oferuje różnorodne możliwości w tworzeniu stron internetowych, grach, naukach o danych
   
-CodeHS to najlepsze miejsce do nauki programowania, ponieważ nie ma konieczności konfiguracji - oznacza to, że nie musisz niczego pobierać, ustawiać ani instalować. Wszystką potrzebną pracę już wykonałeś, bo jesteś tutaj!
+CodeHS to najlepsze miejsce do nauki programowania, ponieważ nie ma konieczności konfiguracji - oznacza to, że nie musisz niczego pobierać, ustawiać ani instalować. Całą potrzebną pracę już wykonałeś, bo jesteś tutaj!
 
 Teraz wystarczy, że będziesz podążać za mną, przechodzić do kolejnych etapów tutoriala i po prostu się bawić! No to zaczynamy!
 
@@ -46,9 +46,9 @@ Jeśli wszystko działa zgodnie z oczekiwaniami, konsola powinna teraz pokazać 
 
 <details><summary>💡Wskazówka</summary>Jeśli chcesz poczuć się jak prawdziwy haker, po zakończeniu pisania kodu naciśnij CMD/Windows + Enter, aby uruchomić swój kod!</details>
 
-# Nasze pierwsze polecenie
+# Popularne polecenia, które powinien znać każdy programista!
 
-## Polecenie wypisanie (print statement)
+## Polecenie wypisania (print statement)
 
 Właśnie nauczyłeś się swojej pierwszej komendy: instrukcji `print`. Mówi ona "Wypisz cokolwiek, co znajduje się w moich nawiasach". Instrukcja `print` pozwala programowi wyświetlić wiadomości w konsoli.
 
@@ -56,18 +56,7 @@ Właśnie nauczyłeś się swojej pierwszej komendy: instrukcji `print`. Mówi o
 
 - Cudzysłowy `""` (cytaty) służą do informowania komendy, że wkładasz tam tekst (dowolny tekst, który chcesz).
 - Zbiór tekstu (lub cokolwiek, co umieścisz w cudzysłowach) nazywa się łańcuchem znaków (stringiem).
-
-## Wielokrotne polecenie wypisanie (multiple print statement)
-
-👉 Oto jak wyglądają różne instrukcje `print`. Skopiuj ten kod do `main.py` i kliknij `run`.
-
-```python
-print("Well we")
-print("just use more lines")
-print("of code")
-```
-&nbsp;
-
+- 
 👉 Użycie ***potrójnego cudzysłowu*** `"""` pozwala na napisanie dużego kawałka tekstu z odstępami lub podziałami linii. Dodaj ten kod do tego, co masz w pliku `main.py` i kliknij `run`.
 
 ```python
@@ -77,8 +66,6 @@ in three quotes can span
 many lines and even contain " symbols
 within it without freaking anything out!""")
 ```
-
-### Jesteś już na dobrej drodze, aby wkrótce stać się programistą!
 
 # Popularne błędy
 *Rozpocznij od usuwania wszelkiego innego kodu z pliku `main.py`. Skopiuj każdy fragment kodu poniżej do pliku `main.py`, klikając ikonę kopiowania w prawym górnym rogu każdego pola z kodem. Następnie kliknij "run" i zobacz, jakie błędy występują. Napraw błędy i ponownie kliknij "run", aż osiągniesz stan bezbłędny.*

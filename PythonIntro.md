@@ -32,7 +32,6 @@ Teraz wystarczy, że będziesz podążać za mną, przechodzić do kolejnych eta
 - **Invite:** Pozwól innym osobom na żywo edytować twój kod w trybie wieloosobowym.
 
 # Rozpocznijmy kodowanie!
-Zaczynajmy od kilku prostych komend, aby uzyskać prosty wynik (informacje, które program przekazuje użytkownikowi).
 
 👉 Wprowadź ten wiersz kodu w `main.py` i kliknij `run`.
 
@@ -47,6 +46,9 @@ Jeśli wszystko działa zgodnie z oczekiwaniami, konsola powinna teraz pokazać 
 <details><summary>💡Wskazówka</summary>Jeśli chcesz poczuć się jak prawdziwy haker, po zakończeniu pisania kodu naciśnij CMD/Windows + Enter, aby uruchomić swój kod!</details>
 
 # Popularne polecenia, które powinien znać każdy programista!
+
+Zaczynajmy od kilku prostych komend, aby uzyskać prosty wynik (informacje, które program przekazuje użytkownikowi).
+
 
 ## Polecenie wypisania (print statement)
 
@@ -66,6 +68,49 @@ in three quotes can span
 many lines and even contain " symbols
 within it without freaking anything out!""")
 ```
+## Komenda `input`
+
+Spójrzmy na komendę `input` i jak ona działa. Wprowadzenie danych polega na tym, że użytkownik udziela informacji komputerowi.
+
+![](resources/01-input.png)
+
+To jest bardzo podobne do komendy `print`, z tą różnicą, że spowoduje wyświetlenie wiadomości w konsoli, ***a następnie zaczeka***, aż użytkownik wprowadzi coś do konsoli i naciśnie klawisz Enter. Spróbujmy tego!
+
+&nbsp;
+
+👉 Skopiuj ten kod do edytora kodu w pliku `main.py` i zobacz, co się stanie po kliknięciu `run`:
+
+```python
+input("Jak masz na imię?: ")
+```
+# Jak wykorzystać polecenie input czyli zmienne (Variables)
+
+## Czym jest zmienna?
+Komenda `input` pyta o coś, otrzymuje to, ale nie ma gdzie tego umieścić. Możemy to zmienić dzięki zmiennej, która jest wartością, którą możemy użyć, aby nazwać i przechowywać dane.
+
+![](resources/02-variables.png)
+
+## Nazewnictwo zmiennych
+- Możesz nadawać zmiennej dowolną nazwę, ale **nie możesz używać spacji**. Możesz używać:
+  - podkreślników_między_słowami
+  - camelCase, aby ułatwić czytanie
+
+👉 Usuń cały swój kod i skopiuj ten kod do edytora kodu w pliku `main.py`:
+
+```python
+myName = input("Jak masz na imię?: ")
+myAge = input("Ile masz lat?: ")
+print("Wow, to naprawdę DUŻO")
+codeCamp = input("Czy lubisz CodeCamp?")
+print("OCZYWIŚCIE, ŻE TAK!")
+```
+
+- Mamy teraz ***trzy*** zmienne:
+  - `myName` przechowuje imię użytkownika
+  - `myAge` przechowuje ich wiek
+  - `codeCamp` przechowuje ich uczucia wobec CodeCampa 😎.
+
+&nbsp;
 
 # Popularne błędy
 *Rozpocznij od usuwania wszelkiego innego kodu z pliku `main.py`. Skopiuj każdy fragment kodu poniżej do pliku `main.py`, klikając ikonę kopiowania w prawym górnym rogu każdego pola z kodem. Następnie kliknij "run" i zobacz, jakie błędy występują. Napraw błędy i ponownie kliknij "run", aż osiągniesz stan bezbłędny.*
@@ -159,53 +204,6 @@ print("> Albums")
 print("> Artists")
 ```
 </details>
-
-# Pobieranie danych od użytkownika
-
-## Komenda `input`
-
-Spójrzmy na komendę `input` i jak ona działa. Wprowadzenie danych polega na tym, że użytkownik udziela informacji komputerowi.
-
-![](resources/01-input.png)
-
-To jest bardzo podobne do komendy `print`, z tą różnicą, że spowoduje wyświetlenie wiadomości w konsoli, ***a następnie zaczeka***, aż użytkownik wprowadzi coś do konsoli i naciśnie klawisz Enter. Spróbujmy tego!
-
-&nbsp;
-
-👉 Skopiuj ten kod do edytora kodu w pliku `main.py` i zobacz, co się stanie po kliknięciu `run`:
-
-```python
-input("Jak masz na imię?: ")
-```
-
-# Zmienne (Variables)
-
-## Czym jest zmienna?
-Komenda `input` pyta o coś, otrzymuje to, ale nie ma gdzie tego umieścić. Możemy to zmienić dzięki zmiennej, która jest wartością, którą możemy użyć, aby nazwać i przechowywać dane.
-
-![](resources/02-variables.png)
-
-## Nazewnictwo zmiennych
-- Możesz nadawać zmiennej dowolną nazwę, ale **nie możesz używać spacji**. Możesz używać:
-  - podkreślników_między_słowami
-  - camelCase, aby ułatwić czytanie
-
-👉 Usuń cały swój kod i skopiuj ten kod do edytora kodu w pliku `main.py`:
-
-```python
-myName = input("Jak masz na imię?: ")
-myAge = input("Ile masz lat?: ")
-print("Wow, to naprawdę DUŻO")
-codeCamp = input("Czy lubisz CodeCamp?")
-print("OCZYWIŚCIE, ŻE TAK!")
-```
-
-- Mamy teraz ***trzy*** zmienne:
-  - `myName` przechowuje imię użytkownika
-  - `myAge` przechowuje ich wiek
-  - `codeCamp` przechowuje ich uczucia wobec CodeCampa 😎.
-
-&nbsp;
 
 ### Teraz, co z tym zrobić?
 
@@ -1124,26 +1122,6 @@ print(modulo)
 # dzielenie bez reszty
 iloraz = 15 // 2
 print(iloraz)
-```
-
-# Popraw mój kod
-
-*Na początek usuń z pliku `main.py` inne fragmenty kodu. Skopiuj każdy fragment kodu poniżej, klikając ikonę kopiowania w prawym górnym rogu każdego pola kodu. Postępuj zgodnie z instrukcjami napisanymi kolorem zielonym.*
-
-```python
-👉 # Rozwiąż poniższe problemy w moim kodzie
-# Twoim celem jest wyświetlenie wyników trzech obliczeń na ekranie.
-
-# mnożenie
-3.4 * 6.8
-
-# dzielenie
-2467 / 4673
-
-# podnieś 10 do potęgi 2
-
-# wyświetl resztę z dzielenia 343 przez 4
-print("343 // 100")
 ```
 
 # Podzielmy rachunek

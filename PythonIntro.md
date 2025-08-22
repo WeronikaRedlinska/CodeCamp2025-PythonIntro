@@ -183,28 +183,6 @@ Potrzebujesz `" "` (cudzysłowów).
 
 ### Nabierzesz wprawy w debugowaniu tylko poprzez praktykę! Będziesz znajdować wiele błędów we własnym kodzie w miarę postępu, więc upewnij się, że ćwiczysz, podejmując się zadań "Popraw mój kod", kiedy tylko się pojawią!
 
-# Popraw mój kod
-### 👉 Spróbuj naprawić ten kod, który jest pełen błędów.
-
-Najpierw usuń inny kod w pliku `main.py`. Skopiuj każdy fragment kodu poniżej do pliku `main.py`, klikając ikonę kopiowania w prawym górnym rogu każdego pola z kodem. Następnie kliknij "Uruchom" i zobacz, jakie błędy występują. Napraw błędy i ponownie kliknij "Uruchom", aż osiągniesz stan bezbłędny. Kliknij na 👀 "Odpowiedź", aby porównać swój kod z poprawnym kodem.
-
-```python
-print(= MUSIC+ =)
-print("> Songs"
-Print("> Albums")
-print(> Artists")
-```
-
-<details> <summary> 👀 Rozwiązanie </summary>
-
-```python
-print("= MUSIC+ =")
-print("> Songs")
-print("> Albums")
-print("> Artists")
-```
-</details>
-
 ### Teraz, co z tym zrobić?
 
 # Wyświetlanie Zmiennej
@@ -1716,6 +1694,27 @@ for i in range(10):
 ```
 
 </details>
+
+# Kolekcje i tablice
+
+Tablice pozwalają nam na sprawne zarządzanie wieloma jak nie tysięcoma zmiennymi posługując się indeksami (numerkami zmiennych), bardzo pomocne są przy tym pętle, które występowały we wcześniejszych przykładach. Elementy tablicy są **numerowane od 0** .
+ ## Rodzaje tablic
+
+ **Listy**
+ Listy definiujemy tak:
+ ```
+  listaZakupow = []
+```
+ Właśnie stworzyliśmy pustą listę, czas ją wypełnić za pomocą polecenia .append()
+ ```
+  listaZakupów.append("ser")
+  listaZakupów.append("bułki")
+  listaZakupów.append("mleko)
+ ```
+Zobaczmy teraz jak wygląda nasza lista:
+```
+print(listaZakupow)
+```
 
 # Funkcje
 ## Czym są funkcje?

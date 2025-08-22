@@ -1695,14 +1695,15 @@ for i in range(10):
 
 </details>
 
-# Kolekcje i tablice
+# Tablice
 
-Tablice pozwalają nam na sprawne zarządzanie wieloma jak nie tysięcoma zmiennymi posługując się indeksami (numerkami zmiennych), bardzo pomocne są przy tym pętle, które występowały we wcześniejszych przykładach. Elementy tablicy są **numerowane od 0** .
+Tablice pozwalają nam na sprawne zarządzanie wieloma jak nie tysiącoma zmiennymi posługując się indeksami (numerkami zmiennych), bardzo pomocne są przy tym pętle, które występowały we wcześniejszych przykładach. Elementy tablicy są **numerowane od 0** . 
  
- ## Rodzaje tablic
-
- **Listy**
- definiujemy tak:
+ ## Listy
+ Listy — nie są tablicami, ale działają podobnie i są bardziej elastyczne:
+ Mogą przechowywać różne typy danych oraz dynamicznie zmieniają rozmiar.
+ 
+ Definiujemy je następująco:
  ```
   listaZakupow = []
 ```

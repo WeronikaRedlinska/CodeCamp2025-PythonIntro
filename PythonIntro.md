@@ -398,7 +398,7 @@ if myName == "David":
 
 ## Ale to nic nie drukuje?
 
-Aby stworzyć instrukcję `print` związaną z instrukcją warunkową (`if`), musisz przejść do następnej linii i wcięcie **raz** tak, aby wszystko to było częścią kodu, który wykonujemy.
+Aby stworzyć instrukcję `print` związaną z instrukcją warunkową (`if`), musisz przejść do następnej linii i zrobić wcięcie **raz** tak, aby wszystko to było częścią kodu, który wykonujemy.
 
 👉 Skopiuj ten kod i zobacz, co się stanie.
 
@@ -515,8 +515,8 @@ Gdzie umieścilibyśmy polecenie `elif` w poniższym kodzie?
 
 ```python
 print("BEZPIECZNY LOGIN")
-nazwaUżytkownika = input("Nazwa użytkownika > ")
-if nazwaUżytkownika == "mark":
+nazwaUzytkownika = input("Nazwa użytkownika > ")
+if nazwaUzytkownika == "mark":
   print("Witaj Marku!")
 else:
   print("Odejdź!")
@@ -532,7 +532,7 @@ else:
 👉 Dodaj poniższą instrukcję `elif` do powyższego kodu. Upewnij się, że prawidłowo wcięto i umieściłeś ją **pomiędzy** instrukcją `if`, a instrukcją `else`!
 
 ```python
-elif username == "suzanne":
+elif nazwaUzytkownika == "suzanne":
   print("Hejka Suzanne!")
 ```
 
@@ -544,11 +544,11 @@ Twój kod powinien wyglądać tak:
   
 ```python
 print("BEZPIECZNE LOGOWANIE")
-nazwaUżytkownika = input("Nazwa użytkownika > ")
+nazwaUzytkownika = input("Nazwa użytkownika > ")
 
 if nazwaUżytkownika == "mark":
   print("Witaj Marku!")
-elif nazwaUżytkownika == "suzanne":
+elif nazwaUzytkownika == "suzanne":
   print("Hej Suzanne!")
 else:
   print("Odejdź!")

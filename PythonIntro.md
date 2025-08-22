@@ -1698,6 +1698,7 @@ for i in range(10):
 # Kolekcje i tablice
 
 Tablice pozwalają nam na sprawne zarządzanie wieloma jak nie tysięcoma zmiennymi posługując się indeksami (numerkami zmiennych), bardzo pomocne są przy tym pętle, które występowały we wcześniejszych przykładach. Elementy tablicy są **numerowane od 0** .
+ 
  ## Rodzaje tablic
 
  **Listy**
@@ -1708,13 +1709,33 @@ Tablice pozwalają nam na sprawne zarządzanie wieloma jak nie tysięcoma zmienn
  Właśnie stworzyliśmy pustą listę, czas ją wypełnić za pomocą polecenia .append()
  ```
   listaZakupów.append("ser")
-  listaZakupów.append("bułki")
-  listaZakupów.append("mleko)
+  listaZakupów.append("bulki")
+  listaZakupów.append("mleko")
  ```
 Zobaczmy teraz jak wygląda nasza lista:
 ```
 print(listaZakupow)
 ```
+👉 Oto co otrzymujemy:
+
+```
+['ser','bulki','mleko']
+```
+Listy mogą przechowywać różne typy danych, możemy je mieszać w obrębie jednej listy. Stwórzmy teraz listę zawierającą zarówno string, jak i int:
+```
+mojaLista = ["kot", "pies", 44, "malpa", 7]
+```
+I spróbujmy wyświetlić jej element:
+```
+print(mojaLista[2])
+```
+Jak myślisz, co otrzymamy?
+<details> <summary> 👀 Odpowiedź </summary>
+```
+44
+```
+*Pamiętaj: Elementy tablicy są numerowane od 0, także gdy prosimy o element o indeksie 2, chodzi nam o 3 element w kolejności!*
+</details>
 
 # Funkcje
 ## Czym są funkcje?

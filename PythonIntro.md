@@ -1702,7 +1702,7 @@ Tablice pozwalają nam na sprawne zarządzanie wieloma jak nie tysięcoma zmienn
  ## Rodzaje tablic
 
  **Listy**
- Listy definiujemy tak:
+ definiujemy tak:
  ```
   listaZakupow = []
 ```
@@ -1731,11 +1731,28 @@ print(mojaLista[2])
 ```
 Jak myślisz, co otrzymamy?
 <details> <summary> 👀 Odpowiedź </summary>
-```
 44
-```
 *Pamiętaj: Elementy tablicy są numerowane od 0, także gdy prosimy o element o indeksie 2, chodzi nam o 3 element w kolejności!*
 </details>
+
+Po elementach listy możemy również iterować z użyciem pętli for
+```
+zakupy = ["chleb", "mleko", "jajka", "masło", "ser"]
+
+print("Idę do sklepu. Muszę kupić:")
+for produkt in zakupy:
+    print("-" + produkt)
+```
+👉 Oto co otrzymujemy:
+```
+Idę do sklepu. Muszę kupić:
+- chleb
+- mleko
+- jajka
+- masło
+- ser
+```
+
 
 # Funkcje
 ## Czym są funkcje?
@@ -1759,7 +1776,7 @@ Funkcje są definiowane z użyciem słowa kluczowego def, po którym umieszcza s
 
 ```python
 def przywitanie():
-    print "Pozdrowienia z mojej funckji!"
+    print "Pozdrowienia z mojej funkcji!"
 
 def przywitanie_imienne(imie, zyczenia):
     print "Witaj" + imie + ". Zycze Tobie " + zyczenia

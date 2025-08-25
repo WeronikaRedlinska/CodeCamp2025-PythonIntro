@@ -27,10 +27,6 @@ Teraz wystarczy, że będziesz podążać za mną, przechodzić do kolejnych eta
 
 - **Run:** To sprawi, że twój kod... no, wystartuje, uruchomi się.
 
-- **Publish:** Podziel się swoim kodem z naszą społecznością, aby inni mogli zobaczyć i zmodyfikować.
-
-- **Invite:** Pozwól innym osobom na żywo edytować twój kod w trybie wieloosobowym.
-
 # Rozpocznijmy kodowanie!
 
 👉 Wprowadź ten wiersz kodu w `main.py` i kliknij `run`.

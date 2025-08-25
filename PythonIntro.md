@@ -1,4 +1,3 @@
-# Wstęp
 ## Witajcie!
 
 ### Dlaczego Python?
@@ -531,7 +530,7 @@ else:
 
 ### Jak łatwe to było? Wkrótce staniesz się profesjonalistą!
 
-# Dodaj hasło
+# Dodaj hasło :books:
 
 ### Dodajmy trochę więcej wprowadzania danych.
 

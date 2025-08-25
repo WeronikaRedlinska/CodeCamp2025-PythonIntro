@@ -1792,11 +1792,19 @@ Sprawdźmy też, że do słownika możemy dodać nie tylko wartość int, jak by
 ```
 oceny['polski']=[1,2,3]
 ```
-👉 print(oceny)
+👉 
 ```
 {'matematyka': 5, 'biologia': 4, 'historia': 3, 'angielski': 6, 'chemia': 1, 'polski': [1, 2, 3]}
 ```
-
+A jak zmodyfikujemy parę? Dokładnie tak samo jak dodawaliśmy wartość, tylko odwołujemy się do już istniejącego klucza.
+Chyba ktoś zaczął się przykładać do nauki chemii.
+```
+oceny['chemia'] = 5
+```
+👉 
+```
+{'matematyka': 5, 'biologia': 4, 'historia': 3, 'angielski': 6, 'chemia': 5, 'polski': [1, 2, 3]}
+```
 # Funkcje
 ## Czym są funkcje?
 Funkcja to wydzielony fragment kodu, który można wielokrotnie używać w różnych miejscach programu. Tak się składa, że już wykorzystywaliśmy funkcje, a jedną z nich była funkcja xrange. Nie trzeba było jej pisać samodzielnie, bo zrobił to już za ciebie inny programista. Wystarczyło, że wiesz jak ona działa. Bez funkcji praca zespołowa nad nawet średnim programem byłaby prawie niemożliwa. Większość funkcji wymaga informacji z zewnątrz. Są to liczby, tekst i inne obiekty. Większość zwraca również informacje.

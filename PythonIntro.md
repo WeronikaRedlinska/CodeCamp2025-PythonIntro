@@ -639,7 +639,7 @@ else:
 
 ### Brawo, coraz lepiej Ci idzie!
 
-# Napraw mój kod
+# Napraw mój kod :books:
 
 👉 Spróbuj naprawić ten kod, który jest *pełen* błędów.
 
@@ -737,7 +737,7 @@ nie jest odpowiednio wcięty.
 - To polecenie else odnosi się do zmiennej faveCharacter, dlatego oba powyższe polecenia else i print muszą być wcięte o jeden poziom. Zaznacz je oba i kliknij klawisz 'tab' jeden raz.
 </details>
 
-# Napraw mój kod
+# Napraw mój kod :books:
 
 👉 Spróbuj naprawić ten kod, który jest *pełen* błędów.
 

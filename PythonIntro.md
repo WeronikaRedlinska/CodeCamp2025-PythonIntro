@@ -1754,6 +1754,48 @@ Idę do sklepu. Muszę kupić:
 - ser
 ```
 
+## Słowniki 
+
+Słownik jest strukturą danych podobną do list z tą różnicą, że słowniki nie pracują w oparciu o indeksy, ale w oparciu o parę: klucz – wartość.
+
+Tworzenie słownika polega na tworzeniu par klucz-wartość za pomocą klamer i dwukropka:
+```
+slownik = {'klucz1': 'wartosc1', 'klucz2': 'wartosc2'}
+```
+Słowniki mają tę zaletę, że ich wartości mogą zawierać dowolny typ danych (np. napisy, liczby, listy etc.). Z kluczami jest już inaczej, bo muszą być one zestawami tego samego typu elementów, np. napisy, liczby etc. 
+
+👉 Stwórzmy więc pierwszy słownik:
+```
+oceny = {
+    'matematyka': 5,
+    'biologia': 4,
+    'historia': 3,
+    'angielski': 6
+}
+```
+Jak odwołamy się do elementu naszego słownika?
+Za pomocą klucza!
+```
+ocena_matematyka = oceny['matematyka']
+```
+Dodajmy teraz nowy element do słownika - wystarczy, że podamy nową parę klucz wartość istniejącemu słownikowi
+```
+oceny['chemia'] = 1
+```
+Jak wygląda teraz nasz słownik? Do sprawdzenia użyjmy dobrze znanego print.
+👉 print(oceny)
+```
+{'matematyka': 5, 'biologia': 4, 'historia': 3, 'angielski': 6, 'chemia': 1}
+```
+
+Sprawdźmy też, że do słownika możemy dodać nie tylko wartość int, jak było to do tej pory. Spróbujmy z listą:
+```
+oceny['polski']=[1,2,3]
+```
+👉 print(oceny)
+```
+{'matematyka': 5, 'biologia': 4, 'historia': 3, 'angielski': 6, 'chemia': 1, 'polski': [1, 2, 3]}
+```
 
 # Funkcje
 ## Czym są funkcje?

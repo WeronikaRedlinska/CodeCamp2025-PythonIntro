@@ -281,7 +281,7 @@ najwcześniej jak to możliwe!
 -Jeśli chcesz wydrukować zawartość, TO NIE UŻYWASZ CUDZYSŁOWÓW.
 </details>
 
-# Popraw Mój Kod
+# Popraw Mój Kod :books:
 👉 Spróbuj naprawić ten kod, który jest *pełen* błędów.
 
 *Najpierw usuń wszelki inny kod z pliku `main.py`. Skopiuj każdy fragment kodu poniżej do pliku `main.py`, klikając ikonę kopiowania w prawym górnym rogu każdego pola z kodem. Następnie kliknij `run` i zobacz, jakie błędy występują. Napraw błędy i ponownie kliknij `run`, aż osiągniesz stan bezbłędny. Kliknij na `👀 Odpowiedź`, aby porównać swój kod z poprawnym kodem.*

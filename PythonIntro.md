@@ -812,9 +812,6 @@ Instrukcje warunkowe `if` obsługują więcej niż tylko operator `==`. Wspieraj
 </details>
 
 # Rzutowanie (Casting)
-
-To dlatego, że sposób działania funkcji `input` polega na tym, że zawsze zakłada, że to, co wpisujesz, to tekst (lub ciąg znaków) i jest przechowywane jako zmienna w `""`.
-
 *Rzutowanie* to sposób na jasne powiedzenie komputerowi, że to, co wpisujemy, to liczba, a nie litera.
 
 &nbsp;
@@ -829,6 +826,9 @@ if myScore > 100000:
 else:
   print("Spróbuj ponownie 😭")
 ```
+
+
+To dlatego, że sposób działania funkcji `input` polega na tym, że zawsze zakłada, że to, co wpisujesz, to tekst (lub ciąg znaków) i jest przechowywane jako zmienna w `""`.
 
 ### Rozwaliliśmy to! Jak powiedzieć komputerowi, "Poczekaj, to jest liczba!"?
 
@@ -926,7 +926,7 @@ Zapomnieliśmy także zakończyć podwójny cudzysłów `"` po `"Dokładnie!`
 
 </details>
 
-# Popraw mój kod
+# Popraw mój kod :books:
 
 👉 Spróbuj naprawić ten kod, który jest *pełen* błędów.
 

@@ -1146,7 +1146,7 @@ while exit != "yes":
 
 </details>
 
-# Popraw mój kod
+# Popraw mój kod :books:
 ### 👉 Spróbuj naprawić ten kod, który jest pełen błędów.
 
 Najpierw usuń inny kod w pliku `main.py`. Skopiuj każdy fragment kodu poniżej do pliku `main.py`, klikając ikonę kopiowania w prawym górnym rogu każdego pola z kodem. Następnie kliknij "Uruchom" i zobacz, jakie błędy występują. Napraw błędy i ponownie kliknij "Uruchom", aż osiągniesz stan bezbłędny. Kliknij na 👀 "Odpowiedź", aby porównać swój kod z poprawnym kodem.
@@ -1307,7 +1307,7 @@ Zauważ komunikat o błędzie, który mówi "break poza pętlą". Czy zauważasz
 Podświetl te trzy linie kodu i naciśnij klawisz `tab` raz, aby *wcięcie* kodu było *wewnątrz* pętli.
 </details>
 
-# Popraw mój kod
+# Popraw mój kod :books:
 ### 👉 Spróbuj naprawić ten kod, który jest pełen błędów.
 
 Najpierw usuń inny kod w pliku `main.py`. Skopiuj każdy fragment kodu poniżej do pliku `main.py`, klikając ikonę kopiowania w prawym górnym rogu każdego pola z kodem. Następnie kliknij "Uruchom" i zobacz, jakie błędy występują. Napraw błędy i ponownie kliknij "Uruchom", aż osiągniesz stan bezbłędny. Kliknij na 👀 "Odpowiedź", aby porównać swój kod z poprawnym kodem.
@@ -1427,7 +1427,7 @@ Nazwa zmiennej jest nieprawidłowa wewnątrz kodu. Jeśli chcesz odnieść się 
 
 </details>
 
-# Popraw mój kod
+# Popraw mój kod :books:
 ### 👉 Spróbuj naprawić ten kod, który jest pełen błędów.
 
 Najpierw usuń inny kod w pliku `main.py`. Skopiuj każdy fragment kodu poniżej do pliku `main.py`, klikając ikonę kopiowania w prawym górnym rogu każdego pola z kodem. Następnie kliknij "Uruchom" i zobacz, jakie błędy występują. Napraw błędy i ponownie kliknij "Uruchom", aż osiągniesz stan bezbłędny. Kliknij na 👀 "Odpowiedź", aby porównać swój kod z poprawnym kodem.
@@ -1546,7 +1546,7 @@ for i in range (10, 0, -1):
 
 </details>
 
-# Popraw mój kod
+# Popraw mój kod :books:
 ### 👉 Spróbuj naprawić ten kod, który jest pełen błędów.
 
 Najpierw usuń inny kod w pliku `main.py`. Skopiuj każdy fragment kodu poniżej do pliku `main.py`, klikając ikonę kopiowania w prawym górnym rogu każdego pola z kodem. Następnie kliknij "Uruchom" i zobacz, jakie błędy występują. Napraw błędy i ponownie kliknij "Uruchom", aż osiągniesz stan bezbłędny. Kliknij na 👀 "Odpowiedź", aby porównać swój kod z poprawnym kodem.
@@ -1665,7 +1665,7 @@ Teraz, za każdym razem, gdy pętla się resetuje, będzie generowana nowa losow
 </details>
 
 
-# Popraw mój kod
+# Popraw mój kod :books:
 ### 👉 Spróbuj naprawić ten kod, który jest pełen błędów.
 
 Najpierw usuń inny kod w pliku `main.py`. Skopiuj każdy fragment kodu poniżej do pliku `main.py`, klikając ikonę kopiowania w prawym górnym rogu każdego pola z kodem. Następnie kliknij "Uruchom" i zobacz, jakie błędy występują. Napraw błędy i ponownie kliknij "Uruchom", aż osiągniesz stan bezbłędny. Kliknij na 👀 "Odpowiedź", aby porównać swój kod z poprawnym kodem.

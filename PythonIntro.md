@@ -1827,13 +1827,13 @@ Funkcje są definiowane z użyciem słowa kluczowego def, po którym umieszcza s
 
 ```python
 def przywitanie():
-    print "Pozdrowienia z mojej funkcji!"
+    print("Pozdrowienia z mojej funkcji!")
 
 def przywitanie_imienne(imie, zyczenia):
-    print "Witaj" + imie + ". Zycze Tobie " + zyczenia
+    print("Witaj " + imie + ". Zycze Tobie " + zyczenia)
 
 przywitanie() # Wypisze "Pozdrowienia z mojej funckji!"
-przywitanie_imienne("Jacek", "zdrowia") # Wypisze immienne zyczenia
+przywitanie_imienne("Jacek", "zdrowia") # Wypisze imienne zyczenia
 ```
 
 Aby przerwać działanie funkcji i zwrócić wartość, musisz użyć słowa return, a za nim umieścić zwracaną wartość. Jeżeli pominiesz wartość, to funkcja tylko zakończy swoje działanie i nic nie zwróci. Przykład:
@@ -1845,7 +1845,7 @@ def dzielenie(dzielna, dzielnik):
     else:
         return dzielna / dzielnik
 
-print dzielenie(5, 0)
-print "#########################"
-print dzielenie(10, 2)
+print (dzielenie(5, 0))
+print ("#########################")
+print (dzielenie(10, 2))
 ```
